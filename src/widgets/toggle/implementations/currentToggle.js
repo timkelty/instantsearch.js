@@ -111,7 +111,7 @@ const currentToggle = ({
             createURL={_createURL}
             cssClasses={cssClasses}
             facetValues={[facetValue]}
-            shouldAutoHideContainer={results.nbHits === 0}
+            shouldAutoHideContainer={facetValue.count === 0}
             templateProps={this._templateProps}
             toggleRefinement={this.toggleRefinement}
           />,
