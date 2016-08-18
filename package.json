@@ -24,7 +24,7 @@
     "test:functional:dev": "babel-node scripts/dev-functional-tests",
     "test:functional:dev:debug-server": "PORT=9090 babel-node scripts/dev-functional-tests-debug-server",
     "serve": "./scripts/serve.sh",
-    "install": "npm run build"
+    "postinstall": "npm run build"
   },
   "repository": "algolia/instantsearch.js",
   "devDependencies": {
